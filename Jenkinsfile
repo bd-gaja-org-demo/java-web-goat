@@ -37,7 +37,7 @@ pipeline {
                         polaris_branch_name: "Jenkins scan",
                         detect_search_depth: 20,
                         polaris_prComment_enabled: true,
-                        polaris_reports_sarif_create: true,
+                        //polaris_reports_sarif_create: true,
                         include_diagnostics: false
                 }
             }

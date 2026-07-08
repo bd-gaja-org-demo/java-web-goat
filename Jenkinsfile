@@ -44,10 +44,10 @@ pipeline {
         }
     }
 
-    post {
-        always {
-            archiveArtifacts allowEmptyArchive: true, artifacts: '.bridge/bridge.log, .bridge/*/idir/build-log.txt'
-            cleanWs()
-        }
-    }
+    //post {
+    //    always {
+    //        archiveArtifacts allowEmptyArchive: true, artifacts: '.bridge/bridge.log, .bridge/*/idir/build-log.txt'
+    //        cleanWs()
+    //    }
+    //}
 }
